@@ -1,0 +1,4 @@
+print("hello world", end=" ") # the end parameter is used to specify what to print at the end of the output. By default, it is a newline character (\n), which means that each print statement will be printed on a new line. By setting end=" ", we are telling Python to print a space instead of a newline character, so the next print statement will be printed on the same line.
+print("I want to print on same line")    
+#we use # to comment the code, it is used to explain the code and make it more readable. The text after the # symbol is ignored by the Python interpreter and is not executed as part of the program.
+# for wrap the text shorcut key is Alt + Z
