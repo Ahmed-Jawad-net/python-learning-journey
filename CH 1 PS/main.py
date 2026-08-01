@@ -1,58 +1,83 @@
-first_name = "Jawad"
-print(f"Hello {first_name}")
-food = "Pizza"
-print (f"My favorite food is {food}")
+# first_name = "Jawad"
+# print(f"Hello {first_name}")
+# food = "Pizza"
+# print (f"My favorite food is {food}")
 
-price = 999
-txt = f"The price of the pizza is {price} rupees"
-print(txt)  
+# price = 999
+# txt = f"The price of the pizza is {price} rupees"
+# print(txt)
 
-#Numbers/Integers formatting
-age = 23
-print(f"you are {age} years old")
+# #Numbers/Integers formatting
+# age = 23
+# print(f"you are {age} years old")
 
-quantity = 3
-print(f"You bought {quantity} pizzas")
+# quantity = 3
+# print(f"You bought {quantity} pizzas")
 
-num_of_students = 30 
-print(f"There are {num_of_students} students in the class")
+# num_of_students = 30
+# print(f"There are {num_of_students} students in the class")
 
-#float formatting
-priceis = 10.99
-print(f"The price of the pizza is  ${priceis} rupees")
+# #float formatting
+# priceis = 10.99
+# print(f"The price of the pizza is  ${priceis} rupees")
 
-cgpa = 3.21
-print(f"My current CGPA is {cgpa}")
+# cgpa = 3.21
+# print(f"My current CGPA is {cgpa}")
 
-distance = 4.4
-print(f"I ran {distance} kilometers today")
+# distance = 4.4
+# print(f"I ran {distance} kilometers today")
 
-#Boolean formatting
-is_student = False 
+# #Boolean formatting
+# is_student = False
 
-for_sale = False
-is_online = True
-if is_online:
-    print("You are online")
-else:
-    print("You are offline")
+# for_sale = False
+# is_online = True
+# if is_online:
+#     print("You are online")
+# else:
+#     print("You are offline")
 
-#____________________________________________________________________________________________
-# Typecasting = the  process of converting one data type to another data type
-# int() = converts a data type to an integer
-# float() = converts a data type to a float
-# str() = converts a data type to a string  
+# #____________________________________________________________________________________________
+# # Typecasting = the  process of converting one data type to another data type
+# # int() = converts a data type to an integer
+# # float() = converts a data type to a float
+# # str() = converts a data type to a string
 
-name = "Jawad Ahmed"
-age = 23
-cgpa = 3.21
-is_Student = True
-cgpa = int(cgpa) #typecasting from float to int
-print(cgpa)
-#age = float(age) #typecasting from int to float
-#print(age)
-age = str(age) #typecasting from int to string
-#age += "1" #concatenating a string with an integer (converted to string)
-print(age)
-name = bool(name) #typecasting from string to boolean
-print(name)
+# name = "Jawad Ahmed"
+# age = 23
+# cgpa = 3.21
+# is_Student = True
+# cgpa = int(cgpa) #typecasting from float to int
+# print(cgpa)
+# #age = float(age) #typecasting from int to float
+# #print(age)
+# age = str(age) #typecasting from int to string
+# #age += "1" #concatenating a string with an integer (converted to string)
+# print(age)
+# name = bool(name) #typecasting from string to boolean
+# print(name)
+
+# input() = allows user input (A function that prompts the user to enter data and return it as a string)
+# name = input("What is your name? ")
+# age = int( input("How old are you? "))
+# # age = int(age) #typecasting from string to int
+# age = age + 1
+
+# print(f"Hello {name}!")
+# print(f"You are {age} years old ")
+
+# -----------------------------------------------------------------------------
+# Exercise  Practice calculate the area of a rectangle
+# length = float(input("Enter the length: "))
+# width = float(input("Enter the width: "))
+# area = length * width
+# print(f"The area of the rectangle is {area}")
+
+# -----------------------------------------------------------------------------
+# Exercise Practice 2 Shopping cart program
+item = input("What item would you like to buy? ")
+price = float(input(f"What is the price of {item}? "))
+quantity = int(input(f"How many {item}s would you like to buy? "))
+Total = price * quantity
+print(f"You have purchased {quantity} {item}(s) ")
+print(f"Your Total bill is ${Total:.2f}")
