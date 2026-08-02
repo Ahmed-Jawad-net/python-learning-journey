@@ -75,9 +75,29 @@
 
 # -----------------------------------------------------------------------------
 # Exercise Practice 2 Shopping cart program
-item = input("What item would you like to buy? ")
-price = float(input(f"What is the price of {item}? "))
-quantity = int(input(f"How many {item}s would you like to buy? "))
-Total = price * quantity
-print(f"You have purchased {quantity} {item}(s) ")
-print(f"Your Total bill is ${Total:.2f}")
+# item = input("What item would you like to buy? ")
+# price = float(input(f"What is the price of {item}? "))
+# quantity = int(input(f"How many {item}s would you like to buy? "))
+# Total = price * quantity
+# print(f"You have purchased {quantity} {item}(s) ")
+# print(f"Your Total bill is ${Total:.2f}")
+
+# -----------------------------------------------------------------------------
+# Arthematic operations
+friend = 5
+# friend +=1 #augmented assignment operator
+# friend = friend - 2 
+# friend -= 2 #augmented assignment operator
+# friend = friend * 5
+# friend *= 5 #augmented assignment operator
+# friend = friend / 2 
+# friend /= 2 #augmented assignment operator
+
+# friend = friend ** 3
+# friend **=3 #augmented assignment operator
+
+# remainder = friend % 2
+friend %= 2 #augmented assignment operator
+print(f"You have {friend} friend's")
+
+
