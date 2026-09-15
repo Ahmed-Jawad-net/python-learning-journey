@@ -97,7 +97,44 @@ friend = 5
 # friend **=3 #augmented assignment operator
 
 # remainder = friend % 2
-friend %= 2 #augmented assignment operator
-print(f"You have {friend} friend's")
+# friend %= 2 #augmented assignment operator
+# print(f"You have {friend} friend's")
 
+# Round() = rounds a number to the nearest integer or specified decimal places
+w = 2
+x = 3.44
+y = -4
+z = 5
+# result = round(x) #rounds to the nearest integer
+# print(f"The rounded value of {x} is {result}")
+# result = abs(y) #returns the absolute value of a number
+# print(f"The absolute value of {y} is {result}")
+# result = pow(w, z) #returns the value of w raised to the power of z
+# print(f"The value of {w} raised to the power of {z} is {result}")
+# result = max(w, x, y, z) #returns the maximum value among the given numbers
+# print(f"The maximum value among {w}, {x}, {y}, and {z} is {result}")
+#result = min(w, x, y, z) #returns the minimum value among the given numbers
+#print(f"the minimum value is {result}")
+import math 
 
+# print(math.pi)
+# print(math.e)
+
+# x = 9
+# result = math.sqrt(x)
+# print(f"The square root of {x} is {result}")
+# result = math.ceil(x) #rounds up to the nearest integer
+# print(f"The ceiling value of {x} is {result}")    
+
+# radius = float(input("Enter the radius of the circle: "))
+# circumference = 2 * math.pi * radius
+# print(f"The circumference of the circle is {circumference:.2f}cm")
+# area = math.pi * pow(radius, 2)
+# print(f"The area of the circle is {round(area, 2)} cm^2")
+# -----------------------------------------------------------------------------
+#find the hypotenuse of a right triangle 
+a = float(input("Enter the A: "))
+b = float(input("Enter the B: "))
+
+c = math.sqrt(pow(a,2) + pow(b,2))
+print(f"Side C: {c:.2f}")
