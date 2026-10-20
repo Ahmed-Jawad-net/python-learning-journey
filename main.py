@@ -133,8 +133,83 @@ import math
 # print(f"The area of the circle is {round(area, 2)} cm^2")
 # -----------------------------------------------------------------------------
 #find the hypotenuse of a right triangle 
-a = float(input("Enter the A: "))
-b = float(input("Enter the B: "))
+# a = float(input("Enter the A: "))
+# b = float(input("Enter the B: "))
 
-c = math.sqrt(pow(a,2) + pow(b,2))
-print(f"Side C: {c:.2f}")
+# c = math.sqrt(pow(a,2) + pow(b,2))
+# print(f"Side C: {c:.2f}")
+#------------------------------------------------------------------------------
+# if = Do something if a condition is true
+# else = Do something if the condition is false 
+ 
+# age = int(input("Enter your age: "))
+
+# if age >= 100:
+#     print("You are too old to vote")
+# elif age >=18:
+#     print("You are eligible to vote ")
+# elif age < 0:
+#     print("Invalid age")
+
+
+# else:
+#     print("You are not eligible to vote")
+# _-----------------------------------------------------------------------------
+# response = input("Would you like some food? (Y/N) ")
+# if response == "Y" or response == "y":
+#     print("Here is some food")
+
+# else:
+#     print("No food for you")
+
+#------------------------------------------------------------------------------
+
+# name = input("What is your Full Name? " )
+# if name == "":
+#     print("You did not enter your  name") 
+# else:
+#     print(f"Hello {name}")
+
+#-----------------------------------------------------------------------------
+
+# for_sale = False
+# if for_sale:
+#     print("This item is for sale")
+# else:
+#     print("This item is not for sale")
+
+#-----------------------------------------------------------------------------
+
+# for x in "Banana":
+#     print(x)
+
+# -----------------------------------------------------------------------------
+# a = "Hello,World!"
+# print(a[4]) #prints the second character of the string
+# print(len(a)) #prints the length of the string
+#------------------------------------------------------------------------------
+
+
+# txt = "The best things in life are free!"
+# print("free" in txt) #returns True if the word "free" is present in the string
+
+#-----------------------------------------------------------------------------
+
+# txt = "The best things in life are free!"
+# if "free" in txt:
+#     print("Yes, 'free' is present in the string")
+# else:
+#     print("No, 'free' is not present in the string")
+
+#-----------------------------------------------------------------------------
+# txt = "The best things in life are free!"
+# print("tree" not in txt) #returns True if the word "free" is not present in the string
+
+#-----------------------------------------------------------------------------
+# txt = "The best things in life are free!"
+# if "Expensive" not in txt:
+    # print("Yes, 'Expensive' is not present in the string")
+
+#-----------------------------------------------------------------------------
+b= "helloworld"
+print(b[2:5]) #returns the characters from index 2 to 5 (not included)
